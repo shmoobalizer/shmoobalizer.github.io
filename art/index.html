@@ -3,7 +3,11 @@
    <head>
       <title>/art.</title>
       <style>
-          .center-fit {
+	  .display {
+	      display: grid;
+	      height: 100%;
+	  }
+          .fit {
               max-width: 100%;
               max-height: 100vh;
               margin: auto;
@@ -12,6 +16,7 @@
    </head>
    <body style="background-color:#000000;">
       <p style="color:#ffffff;"></p>
+	  <div class="display">
 	  <img class="center-fit" src="hhh.png">
 	  <img class="center-fit" src="self.png">
 	  <img class="center-fit" src="dragon.png">
@@ -33,5 +38,6 @@
 	  <img class="center-fit" src="moon.jpg">
 	  <img class="center-fit" src="historical.jpg">
 	  <img class="center-fit" src="where.jpg">
+	  </div>
    </body>
 </html>
