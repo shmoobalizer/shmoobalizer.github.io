@@ -3,14 +3,15 @@
    <head>
       <title>/art.</title>
       <style>
-	  .display {
-	      display: grid;
-	      height: 100%;
-	  }
+	  .display {}
           .fit {
               max-width: 100%;
               max-height: 100vh;
-              margin: auto;
+              margin: 0;
+              position: absolute;
+              left: 50%;
+              -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
           }
       </style>
    </head>
