@@ -3,12 +3,28 @@
 	"name":"Discord",
 	"description":"Embedded Chrome App for Discord.",
 	"version":"1.0",
-	"icons":{
-		"32":"img/icon.png",
-		"128":"img/icon128.png",
-		"192":"img/icon192.png",
-		"512":"img/icon512.png"
-	},
+	"icons":[
+		{
+			"src": "img/icon.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "img/icon128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "img/icon192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "img/icon512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
 	"start_url": "/?source=pwa",
 	"display": "standalone",
 	"app":{
