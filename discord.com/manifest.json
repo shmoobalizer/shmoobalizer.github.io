@@ -1,7 +1,7 @@
 {
 	"manifest_version":2,
 	"name":"Discord",
-	"short_name":"Discord",
+	"short_name":"Disc",
 	"description":"Embedded Chrome App for Discord.",
 	"version":"1.0",
 	"icons":[
@@ -44,5 +44,6 @@
 		"notifications",
 		"audioCapture",
 		"videoCapture"
-	]
+	],
+	"short_name": "test"
 }
