@@ -4,7 +4,7 @@
 	"short_name":"Disc",
 	"description":"Embedded Chrome App for Discord.",
 	"version":"1.0",
-	"scope":"./discord.com/"
+	"scope":"./discord.com/",
 	"icons":[
 		{
 			"src": "img/icon.png",
