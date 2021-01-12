@@ -5,6 +5,8 @@
 	"description":"Embedded Chrome App for Discord.",
 	"version":"1.0",
 	"scope":"./discord.com/",
+	"start_url": "./discord.com/?source=pwa",
+	"display": "standalone",
 	"icons":[
 		{
 			"src": "img/icon.png",
@@ -27,8 +29,6 @@
 			"type": "image/png"
 		}
 	],
-	"start_url": "./discord.com/?source=pwa",
-	"display": "standalone",
 	"app":{
 		"background":{
 			"scripts":[
