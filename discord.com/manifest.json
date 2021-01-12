@@ -27,7 +27,7 @@
 			"type": "image/png"
 		}
 	],
-	"start_url": "/?source=pwa",
+	"start_url": "./discord.com/?source=pwa",
 	"display": "standalone",
 	"app":{
 		"background":{
