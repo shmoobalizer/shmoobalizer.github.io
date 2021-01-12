@@ -5,7 +5,7 @@
 	"description":"Embedded Chrome App for Discord.",
 	"version":"1.0",
 	"scope":"./discord.com/",
-	"start_url": "./discord.com/?source=pwa",
+	"start_url": "./discord.com?source=pwa",
 	"display": "standalone",
 	"icons":[
 		{
