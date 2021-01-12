@@ -1,1 +1,31 @@
-{"manifest_version":2,"name":"Discord","description":"Embedded Chrome App for Discord.","version":"1.0","icons":{"128":"img/icon.png"},"app":{"background":{"scripts":["js/background.js"],"pages":["html/embed.html"]}},"permissions":["webview","fullscreen","notifications","audioCapture","videoCapture"]}
+{
+	"manifest_version":2,
+	"name":"Discord",
+	"description":"Embedded Chrome App for Discord.",
+	"version":"1.0",
+	"icons":{
+		"32":"img/icon.png",
+		"128":"img/icon128.png",
+		"192":"img/icon192.png",
+		"512":"img/icon512.png"
+	},
+	"start_url": "/?source=pwa",
+	"display": "standalone",
+	"app":{
+		"background":{
+			"scripts":[
+				"js/background.js"
+			],
+			"pages":[
+				"html/embed.html"
+			]
+		}
+	},
+	"permissions":[
+		"webview",
+		"fullscreen",
+		"notifications",
+		"audioCapture",
+		"videoCapture"
+	]
+}
