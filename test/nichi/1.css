@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html {
+    height: 100%;
+    font-family: sans-serif;
+	color: white;
+    background: black;
+}
+#mainWrapper {
+    height: 100%;
+    width: 100%;
+    background: black url(bg_main.png);
+}
+#header {
+    width: 100%;
+    height: 10%;
+    background: #141414;
+}
+div.headerLeft:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+} 
+div.headerLeft {
+    float: left;
+    height: 100%;
+    width: 10%;
+    text-align: center;
+	overflow: hidden;
+}
+div.headerRight:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+} 
+div.headerRight {
+    float: right;
+    height: 100%;
+    width: 4%;
+    text-align: center;
+	overflow: hidden;
+}
+
+#logo {
+	background: url(nichi.png) no-repeat center center;
+	background-size: auto 80%;
+	display: block;
+	vertical-align: middle;
+    width: 7%;
+}
+#title {
+    width: 10%;
+    font-size: x-large;
+}
+#separator {
+    width: 5%;
+    font-size: x-large;
+}
+#ip {
+    width: 7%;
+}
+
+#discord {
+	background: url(discord.png) no-repeat center center;
+	background-size: auto 60%;
+	display: block;
+	vertical-align: middle;
+}
+#patreon {
+	background: url(patreon.png) no-repeat center center;
+	background-size: auto 60%;
+	display: block;
+	vertical-align: middle;
+}
+#reddit {
+	background: url(reddit.png) no-repeat center center;
+	background-size: auto 60%;
+	display: block;
+	vertical-align: middle;
+}
+#menu {
+	background: url(menu.png) no-repeat center center;
+	background-size: auto 60%;
+	display: block;
+	vertical-align: middle;
+    width: 7%;
+}
+
+
+#splash {
+    width: 100%;
+    height: 33%;
+	background: url(banner.png) no-repeat center center;
+	background-size: 100% auto;
+    line-height: 250px;
+	text-align: center;
+}
+#splash p {
+    font-size: x-large;
+	line-height: 1.5;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#content {
+	margin: auto;
+    width: 80%;
+    height: 100%;
+}
+#left {
+	float:left;
+	width: 50%;
+    height: 100%;
+}
+#right {
+	float:right;
+	width: 50%;
+    height: 100%;
+}
+#leftContent{
+	padding: 30px;
+	padding-left: 60px;
+	height: 40%;
+}
+.feature {
+	width: 100%;
+	height: 100%;
+}
+#rightContent{
+	padding: 30px;
+	padding-left: 15px;
+	height: 40%;
+}
+
+#frameLeft {
+	background: black;
+	opacity: 50%;
+	width: 7%;
+	height: 100%;
+	position:absolute;
+}
+#frameRight {
+	float:right;
+	background: black;
+	opacity: 50%;
+	width: 7%;
+	height: 100%;
+}
