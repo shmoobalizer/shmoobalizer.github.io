@@ -6,45 +6,45 @@ body,html {
     height: 100%;
     font-family: sans-serif;
 	color: white;
-    background: black;
+    background: black url(bg_main.png);
 }
 #mainWrapper {
     height: 100%;
     width: 100%;
-    background: black url(bg_main.png);
 }
+
 #header {
     width: 100%;
     height: 10%;
     background: #141414;
 }
-div.headerLeft:before {
+div.headerLeftE:before {
     content: "";
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 } 
-div.headerLeft {
+div.headerLeftE {
     float: left;
     height: 100%;
-    width: 10%;
     text-align: center;
 	overflow: hidden;
 }
-div.headerRight:before {
+.headerRightE:before {
     content: "";
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 } 
-div.headerRight {
+.headerRightE {
     float: right;
-    height: 100%;
-    width: 4%;
+    height: 60%;
+    width: auto;
     text-align: center;
 	overflow: hidden;
+	transform: translateY(30%); /* vert-center */
+	padding-right: 1%;
 }
-
 #logo {
 	background: url(nichi.png) no-repeat center center;
 	background-size: auto 80%;
@@ -53,63 +53,56 @@ div.headerRight {
     width: 7%;
 }
 #title {
-    width: 10%;
+	padding-left: 1%;
+	padding-right: 0%;
     font-size: x-large;
 }
 #separator {
-    width: 5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
     font-size: x-large;
 }
 #ip {
-    width: 7%;
+	padding-left: 1%;
 }
-
-#discord {
-	background: url(discord.png) no-repeat center center;
-	background-size: auto 60%;
-	display: block;
-	vertical-align: middle;
-}
-#patreon {
-	background: url(patreon.png) no-repeat center center;
-	background-size: auto 60%;
-	display: block;
-	vertical-align: middle;
-}
-#reddit {
-	background: url(reddit.png) no-repeat center center;
-	background-size: auto 60%;
-	display: block;
-	vertical-align: middle;
+#menu:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 #menu {
+    float: right;
+    height: 100%;
 	background: url(menu.png) no-repeat center center;
 	background-size: auto 60%;
 	display: block;
 	vertical-align: middle;
+    text-align: center;
     width: 7%;
+	overflow: hidden;
 }
-
 
 #splash {
     width: 100%;
     height: 33%;
 	background: url(banner.png) no-repeat center center;
-	background-size: 100% auto;
-    line-height: 250px;
-	text-align: center;
+	background-size: cover;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-#splash p {
+#splashText {	
     font-size: x-large;
+	text-align: center;
 	line-height: 1.5;
-	display: inline-block;
-	vertical-align: middle;
 }
 
 #content {
 	margin: auto;
     width: 80%;
-    height: 100%;
+	height: 100%;
 }
 #left {
 	float:left;
@@ -133,20 +126,19 @@ div.headerRight {
 #rightContent{
 	padding: 30px;
 	padding-left: 15px;
-	height: 40%;
 }
-
 #frameLeft {
 	background: black;
 	opacity: 50%;
 	width: 7%;
-	height: 100%;
-	position:absolute;
+	height: 200%;
+	position: absolute;
 }
 #frameRight {
-	float:right;
+	margin-left: calc(100% - 7%);
 	background: black;
 	opacity: 50%;
 	width: 7%;
-	height: 100%;
+	height: 200%;
+	position: absolute;
 }
